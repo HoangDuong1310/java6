@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns="https://www.thymeleaf.org/">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<img th:src="@{/images/image.jpg}" >
+<nav th:replace="~{/layout/menu.html}"></nav>
+<h1 th:text="${message}"></h1>
+</body>
+</html>

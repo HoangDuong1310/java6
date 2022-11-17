@@ -1,0 +1,11 @@
+#menu
+nav.home=Trang chu
+nav.about=Gioi Thieu
+nav.student=Sinh vien
+nav.validate=Kiem loi
+#home
+home.title=Trang Chu
+home.content=Day la trang chu
+#about
+about.title=GIOI THIEU
+about.content=day la gioi thieu

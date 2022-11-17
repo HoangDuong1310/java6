@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" th:object="${form}" method="post">
+    <input th:field="*{email}" placeholder="Email"> <br>
+    <input th:field="*{fullname}" placeholder="FullName"> <br>
+    <input th:field="*{marks}" placeholder="Marks"> <br>
+    <input th:field="*{gender}" th:value="true" type="radio">Trai <br>
+    <input th:field="*{gender}" th:value="false" type="radio">Gai <br>
+    <select th:field="*{country}">
+        <option value="">Nationality</option>
+        <option value="VN">Viet Nam</option>
+        <option value="US">USA</option>
+    </select>
+    <button th:formaction="@{/student/create}">create</button>
+    <button th:formaction="@{|/student/update/${key}|}">Update</button>
+    <button th:formaction="@{|/student/delete/${key}|}">Delete</button>
+    <button th:formaction="@{/student/index}">reset</button>
+</form>
+</body>
+</html>

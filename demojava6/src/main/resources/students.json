@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Nguyễn Văn A",
+		"gender": true,
+		"mark": 7.5,
+		"contact": {
+			"email": "teonv@gmail.com",
+			"phone": "091234456"
+		},
+		"subject": [
+			"WEB205",
+			"COM108"
+		]
+	},
+	{
+		"name": "Nguyễn Văn B",
+		"gender": true,
+		"mark": 7.5,
+		"contact": {
+			"email": "teonv@gmail.com",
+			"phone": "091234456"
+		},
+		"subject": [
+			"WEB205",
+			"COM108"
+		]
+	},
+	{
+		"name": "Nguyễn Văn C",
+		"gender": true,
+		"mark": 7.5,
+		"contact": {
+			"email": "teonv@gmail.com",
+			"phone": "091234456"
+		},
+		"subject": [
+			"WEB205",
+			"COM108"
+		]
+	}
+]
